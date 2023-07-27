@@ -1,0 +1,18 @@
+.mdl-card {
+    width: 320px;
+    height: 280px;
+    margin:2em 1em;
+}
+.mdl-card > .mdl-card__title {
+    background: #3571f3;
+    color:white
+}
+.mdl-card > .mdl-card__title.light {
+    background: #bcb8e4;
+    color:black;
+}
+.allapp-cards,.tools-buttons {
+    display:flex;
+    justify-content: center;
+}
+
