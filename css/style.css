@@ -30,6 +30,10 @@ body {
     z-index: 900;
     flex-direction: column;
 }
+.mdl-button {
+    min-width: 0;
+    background-color: white;
+}
 .pages-bottom-right button{
     margin:0.25em 0;
 }
