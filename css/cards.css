@@ -34,6 +34,3 @@
     height: 100%;
     background-image: linear-gradient(to top, white 20%, transparent 36%);
 }
-.mdl-button {
-    min-width: 0;
-}
