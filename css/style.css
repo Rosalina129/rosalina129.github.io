@@ -2,6 +2,10 @@
     .mdl-layout__header-row .mdl-layout-title {
         display:none;
     }
+}@media screen and (max-width:540px) {
+    .mdl-dialog {
+        transform: scale(0.8);
+    }
 }
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
