@@ -9,6 +9,12 @@
 .mdl-layout-title * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
+body {
+    background-size:cover;
+}
+.mdl-layout__container {
+    background:rgb(255 255 255 / 80%)
+}
 .footer {
     text-align: center;
 }
