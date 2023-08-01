@@ -5,5 +5,5 @@ var site_background = [
     ['https://static.zerochan.net/Collei.full.3887960.png','top center']
 ]
 var a = Math.floor(Math.random()*4);
-document.body.style.backgroundImage = "url("+ site_background[a][0] +")";
-document.body.style.backgroundPosition = site_background[a][1];
+//document.body.style.backgroundImage = "url("+ site_background[a][0] +")";
+//document.body.style.backgroundPosition = site_background[a][1];

@@ -2,7 +2,8 @@
     .mdl-layout__header-row .mdl-layout-title {
         display:none;
     }
-}@media screen and (max-width:540px) {
+}
+@media screen and (max-width:540px) {
     .mdl-dialog {
         transform: scale(0.8);
     }
@@ -36,7 +37,6 @@ body {
 }
 .mdl-button {
     min-width: 0;
-    background-color: white;
 }
 .pages-bottom-right button{
     margin:0.25em 0;
