@@ -70,3 +70,16 @@ body {
 .blur-1 {
     backdrop-filter:blur(16px);
 }
+
+.transition-left {
+	transform-origin:center right;
+}
+.transition-right {
+	transform-origin:center left;
+}
+.transition-top {
+	transform-origin:bottom center;
+}
+.transition-bottom {
+	transform-origin:top center;
+}
