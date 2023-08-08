@@ -57,31 +57,30 @@
 .cm-content-describe,.cm-content-production,.cm-content-navigation {
     min-height: calc(100vh - 64px);
 }
-.cm-content-describe {
-    background-image: url('../resource/image/Collei.full.3914923.jpg');
+.cm--window {
+    background-color: #ffffff87;
+    border-radius: 96px;
+    padding: 2em;
+    margin-top: 1em;
+    width: 85%;
+    transition:background-color 0.5s;
+    background-image: url('../resource/image/i_n210125_back.webp');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.cm-content-board {
     background-size: cover;
     background-attachment: fixed;
     background-position-x: center;
+}
+.cm-content-describe {
     background-position-y: 36%;
 }
 .cm-content-name {
-    background-image: url('../resource/image/Collei.full.3887960.png');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position-x: center;
     background-position-y: 12%;
 }
-.cm-content-production {
-    background-image: url('../resource/image/Collei.full.3940356.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position-x: center;
-}
 .cm-content-navigation {
-    background-image: url('../resource/image/Collei.full.3921072.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position-x: center;
     background-position-y: 15%;
 }
 
@@ -160,18 +159,6 @@
     align-self:flex-end;
 }
 
-.cm--window {
-    background-color: #ffffff87;
-    border-radius: 96px;
-    padding: 2em;
-    margin-top: 1em;
-    width: 85%;
-    transition:background-color 0.5s;
-    background-image: url('../resource/image/i_n210125_back.webp');
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: right;
-}
 
 .cm--window span {
     font-size:2em;
