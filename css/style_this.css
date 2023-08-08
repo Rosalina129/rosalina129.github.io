@@ -1,0 +1,263 @@
+.title-image--author {
+    background-color: white;
+    border-radius: 100%;
+    width: 40px;
+    margin-right: 1em;
+}
+
+@font-face {
+    font-family: miHoYo-Genshin;
+    src: url('../resource/font/mihoyo-genshin.woff2');
+}
+
+@media screen and (max-width: 1024px) {
+    .mdl-layout__content .page-content .cm-content-name {
+        height:calc(100vh - 56px);
+    }
+    .mdl-layout__content .page-content .cm-content-describe,
+    .mdl-layout__content .page-content .cm-content-production,
+    .mdl-layout__content .page-content .cm-content-navigation {
+        min-height: calc(100vh - 56px);
+    }
+    .mdl-layout__content .cm-describe{
+        display:block;
+        margin:auto auto;
+    }
+    .mdl-layout__content .cm-describe-div {
+        width:100%;
+        display:block;
+    }
+    .mdl-layout__content .cm--window img{
+        width:48px !important;
+    }
+    .mdl-layout__content .cm--window{
+        padding: 0.75em;
+    }
+    .mdl-layout__content .cm--window span {
+        font-size: 1.5em;
+        top: 3px;
+    }
+}
+
+*, .mdl-card__title.mdl-card--expand h2 {
+    font-family: 'miHoYo-Genshin','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mdl-layout-title {
+    font-family:'miHoYo-Genshin','Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.mdl-layout__drawer {
+    min-width: 300px;
+    -webkit-transform: translateX(-320px);
+    transform: translateX(-320px);
+}
+.cm-content-name {
+    height:calc(100vh - 64px);
+}
+.cm-content-describe,.cm-content-production,.cm-content-navigation {
+    min-height: calc(100vh - 64px);
+}
+.cm-content-describe {
+    background-image: url('../resource/image/Collei.full.3914923.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: 36%;
+}
+.cm-content-name {
+    background-image: url('../resource/image/Collei.full.3887960.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: 12%;
+}
+.cm-content-production {
+    background-image: url('../resource/image/Collei.full.3940356.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+}
+.cm-content-navigation {
+    background-image: url('../resource/image/Collei.full.3921072.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: 15%;
+}
+
+.cm-content-background-mask {
+    background-color: rgba(255, 255, 255, 0.295);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition:background-color 0.5s;
+}
+
+.cm-content .cm-div-center {
+    padding: 3em;
+    border-radius: 3em;
+    background-color: rgba(255, 255, 255, 0.404);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition:background-color 0.5s;
+}
+
+.mdl-layout__content .cm-content {
+    transition:background-color 0.5s;
+}
+
+.cm-content-name-title {
+    font-size: 3em;
+}
+
+.cm-content-name-subtitle {
+    font-size: 1.5em;
+    margin-top: 0.75em;
+}
+
+.cm-describe .cm-describe-title, .cm-production .cm-production-title {
+    font-size: 2.5em;
+    margin-top: 1em;
+}
+
+.cm-describe p {
+    margin: 0.25em 0;
+}
+
+.cm-describe {
+    padding: 0 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.cm-content-describe {
+    background-color: aquamarine;
+}
+.cm-name-link a,.cm-name-link button {
+    margin:0 0.5em;
+}
+
+.culiein-anbar {
+    width: 32px;
+}
+
+.cm-describe-div {
+    display: flex;
+    width: calc(50% - 2em);
+}
+
+.cm-describe-div:nth-child(odd) {
+    align-self: flex-start;
+}
+
+.cm-describe-div:nth-child(even) {
+    right:auto;
+    position:relative;
+    align-self:flex-end;
+}
+
+.cm--window {
+    background-color: #ffffff87;
+    border-radius: 96px;
+    padding: 2em;
+    margin-top: 1em;
+    width: 85%;
+    transition:background-color 0.5s;
+    background-image: url('../resource/image/i_n210125_back.webp');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.cm--window span {
+    font-size:2em;
+    position:relative;
+    top:8px;
+    margin-left: 1em;
+}
+.cm-production .cm-production--title {
+    text-align: center;
+    font-size: 2em;
+    margin-top:0.75em;
+}
+
+.cm-production-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cm-production-card .mdl-card {
+    width:360px;
+    height:360px;
+    margin:2em;
+}
+
+.card-included-image{
+    display: inherit;
+    padding: 16px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, white 20%, transparent 36%);
+    transition:background-image 0.5s;
+}
+
+#collei-birthday-2023 > .mdl-card__title {
+    background-image: url('../resource/image/video_thumb/2023-05-08\ 08-22-16.mp4.00_00_03_38.Still001.png');
+    background-size: cover;
+}
+#wilderness > .mdl-card__title {
+    background-image: url('../resource/image/video_thumb/Wilderness_Camping.png');
+    background-size: cover;
+}
+#pr129-kc-3 > .mdl-card__title {
+    background-image: url('../resource/image/video_thumb/PR129_Kingdom_Crisis_Banner.png');
+    background-size: cover;
+}
+#rem > .mdl-card__title {
+    background-image: url('../resource/image/video_thumb/Rosalina_极限任务_banner.png');
+    background-size: cover;
+}
+.mdl-card__title {
+    padding:0;
+}
+/* This is Dark Mode. */
+.mdl-layout__content.cm-dark-mode .cm-content-background-mask  {
+    background-color: #000000ba;
+    transition:background-color 0.5s;
+}
+
+.mdl-layout__content.cm-dark-mode .cm-div-center  {
+    background-color: #ffffff17;
+    color: white;
+    transition:background-color 0.5s;
+}
+
+.mdl-layout__content.cm-dark-mode .cm-content,
+.mdl-layout__content.cm-dark-mode .cm-content-name a,
+.mdl-layout__content.cm-dark-mode .cm-content-name button {
+    color: white;
+    transition:background-color 0.5s;
+}
+
+.mdl-layout__content.cm-dark-mode .cm--window {
+    background-color: #ffffff17;
+    transition:background-color 0.5s;
+}
+.mdl-layout__content.cm-dark-mode .card-included-image{
+    background-image: linear-gradient(to top, rgb(36, 36, 36) 20%, transparent 36%);
+    transition:background-image 0.5s;
+}
+.mdl-layout__content.cm-dark-mode .mdl-card__title,
+.mdl-layout__content.cm-dark-mode .mdl-card__supporting-text{
+    color:white;
+}
+
+.mdl-layout__content.cm-dark-mode .mdl-card{
+    background-color: rgb(36, 36, 36);
+}

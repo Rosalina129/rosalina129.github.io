@@ -1,0 +1,31 @@
+
+.cm-production .cm-production--title {
+    text-align: center;
+    font-size: 2em;
+    margin-top:0.75em;
+}
+
+.cm-production-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cm-production-card .mdl-card {
+    width:360px;
+    height:360px;
+    margin:2em;
+}
+
+.card-included-image{
+    display: inherit;
+    padding: 16px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, white 20%, transparent 36%);
+    transition:background-image 0.5s;
+}
+.mdl-card__title {
+    padding:0;
+}

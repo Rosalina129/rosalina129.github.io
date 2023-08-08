@@ -1,0 +1,91 @@
+[
+    {
+        "type": "software",
+        "id": "yave-tours",
+        "name":"Yave's Tours",
+        "describe":"在这个由 C# WinForms 游戏中，您将扮演一个名为 Yave Yu 的人，通过不断的挂机进行升级!",
+        "urls":
+        [
+            true,
+            "https://github.com/Rosalina129/Yave"
+        ],
+        "versions": null,
+        "islight": false,
+        "cbg_source":""
+    },
+    {
+        "type": "software",
+        "id": "exps",
+        "name":"乱码字生成器",
+        "describe":"由 C# 编写，拿来对文字进行“恶（luan）搞（ma）”吧！",
+        "urls":
+        [
+            true,
+            "https://github.com/Rosalina129/Exps"
+        ],
+        "versions": {
+            "custom":false,
+            "number":[1,0,1]
+        },
+        "islight": false,
+        "cbg_source":""
+    },
+    {
+        "type": "smbx",
+        "id": "hodgepodge-2",
+        "name":"Battle Hodgepodge 2",
+        "describe":"操控马力欧，打倒一波接着一波的敌人吧！",
+        "urls":
+        [
+            false,
+            [
+                ["https://github.com/Rosalina129/hodgepodge2","Github"],
+                ["https://smbx.world/d/30","SMBX World"]
+            ]
+        ],
+        "versions": {
+            "custom":false,
+            "number":[1,0]
+        },
+        "islight": false,
+        "cbg_source":"images/hodgepodge2.png"
+    },
+    {
+        "type": "smbx",
+        "id": "smbxware",
+        "name":"SMBX Ware",
+        "describe":"在这个特定目标的地方尽可能存活到最后！",
+        "urls":
+        [
+            false,
+            [
+                ["https://github.com/Rosalina129/smbxware","Github"],
+                ["https://smbx.world/d/105","SMBX World"]
+            ]
+        ],
+        "versions": {
+            "custom":false,
+            "number":[0,0,1],
+            "betatype":0
+        },
+        "islight": false,
+        "cbg_source":"images/smbxware.png"
+    },
+    {
+        "type": "smbx",
+        "id": "greentop",
+        "name":"Green Top",
+        "describe":"在绿地里，操控马力欧收集金币的同时，收集散落在各地的游戏币吧！",
+        "urls":
+        [
+            true,
+            "https://github.com/Rosalina129/cod_green_top"
+        ],
+        "versions": {
+            "custom":false,
+            "number":[1,0]
+        },
+        "islight": false,
+        "cbg_source":"images/greentop.png"
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "type": "genshin",
+        "id": "collei-birthday-2023",
+        "name":"柯莱“留影”纪 · 2023.5.8",
+        "describe":"为柯莱庆生制作。",
+        "urls":
+        [
+            ["https://www.bilibili.com/video/BV1qa4y1g7YK","Bilibili"]
+        ],
+        "islight": false,
+        "cbg_source":""
+    },
+    {
+        "type": "supermario64Blooper",
+        "id": "wilderness",
+        "name":"在野外露营",
+        "describe":"BeeUser12 与 TLL16，Ender_Fish 一起在野外露营，途中发生了什么许多有趣的事情呢？",
+        "urls":
+        [
+            ["https://www.bilibili.com/video/BV1VW4y1o73m","Bilibili"]
+        ],
+        "islight": false,
+        "cbg_source":""
+    },
+    {
+        "type": "supermario64Blooper",
+        "id": "pr129-kc-3",
+        "name":"PR129 王国危机",
+        "describe":"PR129 惨遭黑化，危机悄然来临，在城堡里的所有伙伴将抵抗此次王国危机。",
+        "urls":
+        [
+            ["https://www.bilibili.com/video/BV1ab411C7Ck","上集"],
+            ["https://www.bilibili.com/video/BV1Cb411r73z","中集"],
+            ["https://www.bilibili.com/video/BV1yD4y1y7wJ","下集，但是搞笑版"]
+        ],
+        "islight": false,
+        "cbg_source":""
+    },
+    {
+        "type": "supermario64Blooper",
+        "id": "rem",
+        "name":"Rosalina's 极限任务",
+        "describe": "Rosalina 惨遭被神秘人抓走，为了拯救她，途中被设下许多任务，大家齐心协力，共同解决一个个任务，最终拯救 Rosalina 并获知真相的故事。",
+        "urls":
+        [
+            ["https://www.bilibili.com/video/BV1x4411f7No","第2集"],
+            ["https://www.bilibili.com/video/BV1p4411k7xi","第3集 第1幕"],
+            ["https://www.bilibili.com/video/BV1pE411D7AQ","第3集 第2幕"]
+        ],
+        "islight": false,
+        "cbg_source":""
+    },
+    {
+        "type": "supermario64Blooper",
+        "id": "gaswc",
+        "name":"世界连结危机",
+        "describe": "在 GMod 世界的某一处，某个组织正想法关闭 GMod 与其他世界的通道，来自 SM64 的各位伙伴们，将竭尽全力对抗这次连结危机。",
+        "urls":
+        [
+            ["https://www.bilibili.com/video/BV1RA411u73L","第1幕"]
+        ],
+        "islight": false,
+        "cbg_source":""
+    }
+]

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html;" charset="utf-8">
+  <title>资源区 - Collei_Madcat</title>
+  <link rel="shortcut icon" href="../resource/favicon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-green.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <link rel="stylesheet" href="../css/style.css"/>
+  <link rel="stylesheet" href="cards.css" />
+  <link rel="stylesheet" href="style_this.css"/>
+</head>
+<!--https://site.colleimadcat.com/-->
+<body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">
+          <!-- Page Title Here -->
+          资源区
+        </span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer">
+          </div>
+          <!-- Navigation. We hide it in small screens. -->
+          <nav class="mdl-navigation mdl-layout--large-screen-only">
+            <a class="mdl-navigation__link" href="https://colleimadcat.com/">主页</a>
+            <a class="mdl-navigation__link" href="https://wiki.colleimadcat.com/">Wiki</a>
+            <a class="mdl-navigation__link" href="https://colleimadcat.com/production/index.html">资源</a>
+          </nav>
+          <button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon">
+            <i class="material-icons">more_vert</i>
+          </button>
+          <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right">
+            <li class="mdl-menu__item needcomingsoon">Github</li>
+            <li class="mdl-menu__item needcomingsoon">Bilibili</li>
+          </ul>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Collei_Madcat Site</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="https://colleimadcat.com/">
+            <i class="material-icons">home</i>&nbsp;主页</a>
+          <a class="mdl-navigation__link" href="https://wiki.colleimadcat.com/">
+            <i class="material-icons">menu_book</i>&nbsp;Wiki</a>
+          <a class="mdl-navigation__link" href="https://colleimadcat.com/production/index.html" id="tools">
+            <i class="material-icons">build</i>&nbsp;资源</a>
+        </nav>
+      </div>
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        <!-- Content Here -->
+        <div class="cm-production">
+          <div class="cm-production-card-list">
+            <p class="cm-production--title">小工具</p>
+            <div class="cm-production-card tools-buttons">
+              <a href="https://colleimadcat.com/MarioIDColor/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-shadow--4dp">Mario ID 颜色生成器</a>
+            </div>
+            <p class="cm-production--title">程序</p>
+            <div class="cm-production-card" id="allapp-cards">
+            </div>
+            <p class="cm-production--title">SMBX 作品</p>
+            <div class="cm-production-card" id="smbx-content-cards">
+            </div>
+          </div>
+        </div>
+        <!-- Content End -->
+      </div>
+      <div class="pages-bottom-right">
+        <button type="button" id="about" class="mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-js-ripple-effect mdl-shadow--3dp">
+          <i class="material-icons">info_outlined</i>
+        </button>
+      </div>
+    </main>
+    <div id="comingsoonToast" aria-live="assertive" aria-atomic="true" aria-relevant="text" class="mdl-snackbar mdl-js-snackbar">
+      <div class="mdl-snackbar__text"></div>
+      <button type="button" class="mdl-snackbar__action"></button>
+    </div>
+    <dialog id="dialog" class="mdl-dialog">
+      <h3 class="mdl-dialog__title">关于资源区</h3>
+      <div class="mdl-dialog__content">
+        <div class="footer">
+          <p>这里是本人的一些作品，以及友情链接分享区。</p>
+          <p>© 2016~2023 Collei_Madcat, Unreal_Neo Studios. All Rights Reserved.</p>
+        </div>
+      </div>
+      <div class="mdl-dialog__actions">
+        <button type="button" class="mdl-button">关闭</button>
+      </div>
+    </dialog>
+  </div>
+  <script src="../js/componets/about.js"></script>
+  <script src="cards.js"></script>
+  <script src="../js/componets/comingsoon.js"></script>
+</body>
