@@ -1,18 +1,56 @@
-var collei = {
+var ctx = new (window.AudioContext || window.webkitAudioContext())();
+let source = ctx.createBufferSource();
+const collei = {
     sounds: [
-        new Audio('resource/audio/357_01_cn.ogg'),
-        new Audio('resource/audio/357_02_cn.ogg'),
-        new Audio('resource/audio/357_03_cn.ogg')
+        '/resource/audio/357_01_cn.ogg',
+        '/resource/audio/357_02_cn.ogg',
+        '/resource/audio/357_03_cn.ogg'
     ],
     musics:[
-        new Audio('resource/audio/Caprice of the Leaves 撷萃漫想.mp3')
+        '/resource/audio/Caprice of the Leaves 撷萃漫想.mp3'
     ]
 }
 
-for (var a = 0;a < collei.sounds.length;a++)    collei.sounds[a].volume = 0.35
+// Play
+async function playAudio() {
+    const audiobuffer = await loadAudio();
+    playSound(audiobuffer);
+}
+// Pause
+async function resumeAudio() {
+    if (ctx.state === "running") {
+        ctx.suspend();
+    } else if (ctx.state === "suspended") {
+        ctx.resume();
+    }
+}
+// Stop
+async function stopAudio() {
+    source.stop();
+}
+
+async function loadAudio(url) {
+    const audioUrl = url;
+    const res = await fetch(audioUrl);
+    const arrayBuffer = await res.arrayBuffer();
+    const audioBuffer = await ctx.decodeAudioData(arrayBuffer, function(decodeData) {
+        return decodeData;
+    });
+    return audioBuffer;
+}
+
+async function playSound(audioBuffer) {
+    source.buffer = audioBuffer;
+    source.loop = false;
+    source.connect(ctx.destination);
+    source.start(0);
+}
+
+
 shuffleMusicNote()
 function randomAudio() {
-    return collei.sounds[Math.floor(Math.random()*collei.sounds.length)]
+    loadAudio(collei.sounds[Math.floor(Math.random()*collei.sounds.length)])
+    playAudio();
 }
 
 function playmusic() {

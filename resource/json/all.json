@@ -1,9 +1,70 @@
 [
     {
         "type": "genshin",
+        "id": "freminet-4-0",
+        "name":"体验枫丹新活动",
+        "describe":"2023.14 期视频。",
+        "urls":
+        [
+            ["https://www.bilibili.com/video/BV1bG411Z7NL","Bilibili"]
+        ],
+        "islight": false,
+        "cbg_source":""
+    },
+    {
+        "type": "genshin",
+        "id": "freminet-boss-two",
+        "name":"大战“枫丹八大天王”",
+        "describe":"2023.12,13 期视频。",
+        "urls":
+        [
+            ["https://www.bilibili.com/video/BV1ZX4y1x7Ng","上"],
+            ["https://www.bilibili.com/video/BV1rP411s74L","下"]
+        ],
+        "islight": false,
+        "cbg_source":""
+    },
+    {
+        "type": "genshin",
+        "id": "genshin-play-with-friend-1",
+        "name":"群友联机日常",
+        "describe":"2023.11 期视频。",
+        "urls":
+        [
+            ["https://www.bilibili.com/video/BV1Dm4y1n7Qx","Bilibili"]
+        ],
+        "islight": false,
+        "cbg_source":""
+    },
+    {
+        "type": "genshin",
+        "id": "genshin-tasks",
+        "name":"极 速 每 日 委 托",
+        "describe":"2023.10 期视频。",
+        "urls":
+        [
+            ["https://www.bilibili.com/video/BV1Xz4y1p7qL","Bilibili"]
+        ],
+        "islight": false,
+        "cbg_source":""
+    },
+    {
+        "type": "genshin",
+        "id": "genshin-60-friends",
+        "name":"帮大佬庆祝60级时刻",
+        "describe":"2023.9 期视频。",
+        "urls":
+        [
+            ["https://www.bilibili.com/video/BV1xV4y1e74A","Bilibili"]
+        ],
+        "islight": false,
+        "cbg_source":""
+    },
+    {
+        "type": "genshin",
         "id": "collei-birthday-2023",
-        "name":"柯莱“留影”纪 · 2023.5.8",
-        "describe":"为柯莱庆生制作。",
+        "name":"柯莱“留影”纪",
+        "describe":"2023.5 期视频，为柯莱生日庆生而制作。",
         "urls":
         [
             ["https://www.bilibili.com/video/BV1qa4y1g7YK","Bilibili"]
@@ -15,7 +76,7 @@
         "type": "supermario64Blooper",
         "id": "wilderness",
         "name":"在野外露营",
-        "describe":"BeeUser12 与 TLL16，Ender_Fish 一起在野外露营，途中发生了什么许多有趣的事情呢？",
+        "describe":"2023.7 期视频。<br/>BeeUser12 与 TLL16，Ender_Fish 一起在野外露营，途中发生了什么许多有趣的事情呢？",
         "urls":
         [
             ["https://www.bilibili.com/video/BV1VW4y1o73m","Bilibili"]
